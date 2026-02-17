@@ -55,6 +55,20 @@ The notebook includes:
 
 ---
 
+## Practical Insight
+
+This experiment shows that model performance depends strongly on hyperparameter selection.
+
+The default SVM learns a decision boundary based on generic assumptions,
+while GridSearchCV systematically identifies parameters that better fit the dataset structure.
+
+Cross-validation ensures the improvement is consistent across multiple splits,
+making the tuned model more reliable for unseen data rather than just fitting one test split.
+
+In real-world ML workflows, hyperparameter tuning is essential to move from a working model to a dependable model.
+
+---
+
 ## Repository Contents
 
 | File | Description |
